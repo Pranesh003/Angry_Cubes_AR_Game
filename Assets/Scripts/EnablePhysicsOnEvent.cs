@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class EnablePhysicsOnEvent : MonoBehaviour
 {
     [SerializeField] private Rigidbody rb;
