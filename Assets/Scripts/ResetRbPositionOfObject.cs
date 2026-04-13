@@ -7,7 +7,7 @@ public class ResetRbPositionOfObject : MonoBehaviour
     private Vector3 rbStartPosition;
     private Quaternion rbStartRotation;
     
-    void Start()
+    void Start() 
     {
         UIButtonHandler.OnResetButtonClicked += () => ResetRbPositionOnButtonClicked();
 
