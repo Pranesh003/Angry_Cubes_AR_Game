@@ -4,7 +4,6 @@ public class HideBarOnStart : MonoBehaviour
 {
     [SerializeField] private Canvas ARMagicBar;
 
-    
     void Start()
     {
         UIButtonHandler.OnStartButtonClicked += () => OnStartButtonClicked();
